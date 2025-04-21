@@ -1,0 +1,37 @@
+/* Estilos específicos para corregir colores en modo oscuro */
+.dark .bg-primary {
+  background-color: hsl(267, 75%, 60%) !important;
+}
+
+.dark .text-primary {
+  color: hsl(267, 75%, 60%) !important;
+}
+
+.dark .border-primary {
+  border-color: hsl(267, 75%, 60%) !important;
+}
+
+.dark .hover\:bg-primary:hover {
+  background-color: hsl(267, 75%, 60%) !important;
+}
+
+.dark .hover\:text-primary:hover {
+  color: hsl(267, 75%, 60%) !important;
+}
+
+.dark .bg-primary\/10 {
+  background-color: hsl(267, 75%, 60%, 0.1) !important;
+}
+
+.dark .hover\:bg-primary\/20:hover {
+  background-color: hsl(267, 75%, 60%, 0.2) !important;
+}
+
+.dark a[href^="mailto:"] {
+  color: hsl(267, 75%, 60%) !important;
+}
+
+.dark button[type="submit"] {
+  background-color: hsl(267, 75%, 60%) !important;
+  color: white !important;
+}

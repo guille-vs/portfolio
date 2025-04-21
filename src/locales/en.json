@@ -1,0 +1,69 @@
+{
+  "common": {
+    "nav": {
+      "home": "Home",
+      "about": "About",
+      "skills": "Skills",
+      "projects": "Projects",
+      "experience": "Experience",
+      "contact": "Contact"
+    },
+    "footer": {
+      "rights": "All rights reserved."
+    }
+  },
+  "home": {
+    "hero": {
+      "title": "Jesús Valencia",
+      "subtitle": "Software Engineer",
+      "description": "Developing modern and scalable web solutions with a focus on exceptional user experiences.",
+      "downloadCV": "Download CV",
+      "contact": "Contact",
+      "viewProjects": "View projects"
+    },
+    "about": {
+      "title": "About Me",
+      "description": "I am a passionate software developer with experience in creating user-centered web applications. My main focus is on frontend development, where I enjoy transforming ideas into intuitive, accessible, and visually appealing interfaces. I am driven by constant learning and exploration of new technologies, keeping up to date with good practices to create modern and scalable solutions."
+    },
+    "skills": {
+      "title": "Skills"
+    },
+    "projects": {
+      "title": "Projects",
+      "code": "Code",
+      "demo": "Demo"
+    },
+    "experience": {
+      "title": "Experience",
+      "education": {
+        "title": "Technical Professional in Software Design and Development",
+        "organization": "CERTUS Institute",
+        "period": "March 2021 – December 2023",
+        "description": "Training focused on software development and web application creation, with emphasis on good practices and modern methodologies."
+      },
+      "work": {
+        "title": "Software Engineer",
+        "organization": "Global S1",
+        "period": "May 2024 – Present",
+        "description": "Development of web applications using technologies such as React, Next.js, and TypeScript. In charge of implementing new functionalities, connecting the backend with the frontend through BFF (Backend for Frontend), creating reusable web components, and ensuring code quality with testing.",
+        "technologies": ["React", "Next.js", "TypeScript", "BFF", "Testing"]
+      }
+    },
+    "contact": {
+      "title": "Contact",
+      "subtitle": "Let's talk!",
+      "description": "You can contact me directly through this form or send me an email at",
+      "email": "jesus.savs19@gmail.com",
+      "name": "Name",
+      "namePlaceholder": "Your name",
+      "emailPlaceholder": "you@email.com",
+      "message": "Message",
+      "messagePlaceholder": "How can I help you?",
+      "send": "Send message",
+      "sending": "Sending...",
+      "success": "Thank you for your message! I'll get back to you soon.",
+      "error": "There was a problem sending your message. Please try again.",
+      "validation": "Please correct the errors in the form"
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "common": {
+    "nav": {
+      "home": "Inicio",
+      "about": "Sobre",
+      "skills": "Habilidades",
+      "projects": "Proyectos",
+      "experience": "Experiencia",
+      "contact": "Contacto"
+    },
+    "footer": {
+      "rights": "Todos los derechos reservados."
+    }
+  },
+  "home": {
+    "hero": {
+      "title": "Jesús Valencia",
+      "subtitle": "Software Engineer",
+      "description": "Desarrollando soluciones web modernas y escalables con enfoque en experiencias de usuario excepcionales.",
+      "downloadCV": "Descargar CV",
+      "contact": "Contacto",
+      "viewProjects": "Ver proyectos"
+    },
+    "about": {
+      "title": "Sobre Mí",
+      "description": "Soy un desarrollador de software apasionado, con experiencia en la creación de aplicaciones web centradas en el usuario. Mi enfoque principal está en el desarrollo frontend, donde disfruto transformando ideas en interfaces intuitivas, accesibles y visualmente atractivas. Me impulsa el aprendizaje constante y la exploración de nuevas tecnologías, manteniéndome al día con buenas prácticas para crear soluciones modernas y escalables."
+    },
+    "skills": {
+      "title": "Habilidades"
+    },
+    "projects": {
+      "title": "Proyectos",
+      "code": "Código",
+      "demo": "Demo"
+    },
+    "experience": {
+      "title": "Experiencia",
+      "education": {
+        "title": "Profesional Técnico en Diseño y Desarrollo de Software",
+        "organization": "Instituto CERTUS",
+        "period": "Marzo 2021 – Diciembre 2023",
+        "description": "Formación enfocada en desarrollo de software y creación de aplicaciones web, con énfasis en buenas prácticas y metodologías modernas."
+      },
+      "work": {
+        "title": "Software Engineer",
+        "organization": "Global S1",
+        "period": "Mayo 2024 – Presente",
+        "description": "Desarrollo de aplicaciones web utilizando tecnologías como React, Next.js y TypeScript. Encargado de implementar nuevas funcionalidades, conectar el backend con el frontend mediante BFF (Backend for Frontend), crear componentes web reutilizables y asegurar la calidad del código con testing.",
+        "technologies": ["React", "Next.js", "TypeScript", "BFF", "Testing"]
+      }
+    },
+    "contact": {
+      "title": "Contacto",
+      "subtitle": "¡Hablemos!",
+      "description": "Puedes contactarme directamente a través de este formulario o enviarme un correo a",
+      "email": "jesus.savs19@gmail.com",
+      "name": "Nombre",
+      "namePlaceholder": "Tu nombre",
+      "emailPlaceholder": "tu@email.com",
+      "message": "Mensaje",
+      "messagePlaceholder": "¿En qué puedo ayudarte?",
+      "send": "Enviar mensaje",
+      "sending": "Enviando...",
+      "success": "¡Gracias por tu mensaje! Te responderé pronto.",
+      "error": "Hubo un problema al enviar tu mensaje. Por favor, intenta nuevamente.",
+      "validation": "Por favor, corrige los errores en el formulario"
+    }
+  }
+}
