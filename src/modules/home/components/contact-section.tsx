@@ -107,7 +107,7 @@ export function ContactSection() {
                       placeholder={t("home.contact.messagePlaceholder")}
                       rows={5}
                       required
-                      className={errors.message ? "border-red-500" : ""}
+                      className={`${errors.message ? "border-red-500" : ""} h-32 resize-none`}
                       aria-invalid={errors.message ? "true" : "false"}
                       aria-describedby={errors.message ? "message-error" : undefined}
                     />

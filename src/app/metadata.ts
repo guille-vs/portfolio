@@ -1,11 +1,10 @@
-import type { Metadata } from "next";
+import type { Metadata } from "next/dist/lib/metadata/types/metadata-interface"
 
 export const metadata: Metadata = {
   title: "Jesús Valencia | Software Engineer",
   description:
     "Portfolio profesional de Jesús Valencia, Software Engineer especializado en desarrollo web frontend y backend con React, Next.js, TypeScript y Node.js.",
-  keywords:
-    "Jesús Valencia, Software Engineer, desarrollador web, React, Next.js, TypeScript, Node.js, portfolio",
+  keywords: "Jesús Valencia, Software Engineer, desarrollador web, React, Next.js, TypeScript, Node.js, portfolio",
   authors: [{ name: "Jesús Valencia", url: "https://github.com/g-susvs" }],
   creator: "Jesús Valencia",
   publisher: "Jesús Valencia",
@@ -44,9 +43,7 @@ export const metadata: Metadata = {
     title: "Jesús Valencia | Software Engineer",
     description:
       "Portfolio profesional de Jesús Valencia, Software Engineer especializado en desarrollo web frontend y backend.",
-    images: [
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/jesus.jpg-kEK7BFKmsc7FkjYhJPPleYGlIcScXN.jpeg",
-    ],
+    images: ["https://hebbkx1anhila5yf.public.blob.vercel-storage.com/jesus.jpg-kEK7BFKmsc7FkjYhJPPleYGlIcScXN.jpeg"],
   },
   robots: {
     index: true,
@@ -59,4 +56,4 @@ export const metadata: Metadata = {
       "max-snippet": -1,
     },
   },
-};
+}
