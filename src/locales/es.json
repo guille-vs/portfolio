@@ -18,6 +18,8 @@
       "subtitle": "Software Engineer",
       "description": "Desarrollando soluciones web modernas y escalables con enfoque en experiencias de usuario excepcionales.",
       "downloadCV": "Descargar CV",
+      "downloadSuccess": "CV descargado correctamente",
+      "downloadMessage": "Gracias por tu interés en mi perfil profesional",
       "contact": "Contacto",
       "viewProjects": "Ver proyectos"
     },

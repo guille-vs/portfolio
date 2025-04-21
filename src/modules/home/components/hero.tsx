@@ -2,12 +2,30 @@
 
 import { motion } from "framer-motion"
 import { Button } from "@/shared/components/ui/button"
-import { Download, Mail, ArrowRight } from "lucide-react"
+import { Download, Mail, ArrowRight, CheckCircle } from "lucide-react"
 import Link from "next/link"
 import { useLanguage } from "@/lib/providers/language-provider"
+import { useToast } from "@/shared/hooks/use-toast"
 
 export function Hero() {
   const { t } = useLanguage()
+  const { toast } = useToast()
+
+  const handleDownloadCV = () => {
+    // Crear un enlace temporal para la descarga
+    const link = document.createElement("a")
+    link.href = "/cv-jesus-valencia.pdf"
+    link.download = "CV-Jesus-Valencia.pdf"
+    document.body.appendChild(link)
+    link.click()
+    document.body.removeChild(link)
+
+    // Mostrar notificación de éxito
+    toast({
+      title: t("home.hero.downloadSuccess") || "",
+      description: t("home.hero.downloadMessage") || "",
+    })
+  }
 
   return (
     <section id="top" className="flex flex-col items-center justify-center min-h-screen pt-16 pb-8 text-center">
@@ -27,6 +45,8 @@ export function Hero() {
           <Button
             className="gap-2 flex items-center"
             style={{ backgroundColor: "hsl(var(--primary))", color: "hsl(var(--primary-foreground))" }}
+            onClick={handleDownloadCV}
+            aria-label="Descargar currículum en formato PDF"
           >
             <Download size={18} aria-hidden="true" />
             <span>{t("home.hero.downloadCV")}</span>
